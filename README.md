@@ -23,9 +23,13 @@ This project implements only the terminal portion, providing:
 - **Terminal resize** (SIGWINCH) — automatically updates remote terminal dimensions
 - **Self-contained** — single Python file
 
-## Dependencies
+## Setup
 
 ```bash
+git clone https://github.com/subixonfire/winbox-terminal-protocol.git
+cd winbox-terminal-protocol
+python3 -m venv .venv
+source .venv/bin/activate
 pip install pycryptodome ecdsa
 ```
 
