@@ -1,0 +1,33 @@
+# Binaries
+*.exe
+*.dmg
+*.zip
+*.app/
+WinBox_mac
+WinBox_Linux*/
+mikrotik_authentication/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Captures and logs
+*.pcap
+*.log
+*.html
+
+# IDE and config
+.idea/
+.vscode/
+.claude/
+.mcp.json
+.state
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
