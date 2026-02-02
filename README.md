@@ -93,6 +93,12 @@ After authentication, all traffic is encrypted:
 - No certificate-based authentication support
 - Single-session only (no multiplexing)
 
+## Acknowledgments and References
+
+All protocol implementations are based on reverse engineering. This project builds on research from:
+
+- [MarginResearch/mikrotik_authentication](https://github.com/MarginResearch/mikrotik_authentication) — Research and proof-of-concept implementations of MikroTik's EC-SRP5 authentication protocol. Provided the elliptic curve cryptography and session key derivation used in this client.
+
 ## License
 
 MIT
